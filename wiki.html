@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki</title>
+</head>
+<body>
+    <header>
+    <h1>Estudos HTML</h1>
+    <h3>Conceitos introdutórios HTML</h3>
+    <nav>
+        <ol>
+            <li><a href="https://www.youtube.com.br">Youtube</a></li>
+            <li><a href="https://www.google.com.br">Pesquisa Google</a></li>
+            <li><a href="https://www.amazon.com.br">E-comerce</a></li>
+        </ol>
+    </nav>
+    </header>
+    <main>
+        <section>
+            <h3>Uso de Tags</h3>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic fugiat rerum voluptatibus cupiditate magni eaque nesciunt repellat aperiam unde, reprehenderit omnis ea corrupti facere! Aliquam, cupiditate, et adipisci illo ea veniam amet alias dolore fugit a ipsum incidunt natus placeat corporis officiis ab, magni architecto reprehenderit quidem quaerat voluptatibus maiores?
+            </p>
+        </section>
+        <section>
+            <h3>Uso de tabelas</h3>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic fugiat rerum voluptatibus cupiditate magni eaque nesciunt repellat aperiam unde, reprehenderit omnis ea corrupti facere! Aliquam, cupiditate, et adipisci illo ea veniam amet alias dolore fugit a ipsum incidunt natus placeat corporis officiis ab, magni architecto reprehenderit quidem quaerat voluptatibus maiores?
+            </p>
+            <table border="1" cellpadding="3" style="border-collapse:collapse;"> <!--Border não é mais usada-->
+                <thead>
+                    <tr>
+                        <th>Tipo</th>
+                        <th>Nome</th>
+                        <th>CPF</th>
+                        <th>Data Nasc.</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Funcionário</td>
+                        <td>Felipe Freitas</td>
+                        <td>010.910.330-05</td>
+                        <td>23/09/1985</td>
+                    </tr>
+                    <tr>
+                        <td>Carla Freitas</td>
+                        <td>000.000.000-00</td>
+                        <td>00/00/0000</td>
+                    </tr>
+                    <tr>
+                        <td>Família</td>
+                        <td>Flávia Freitas</td>
+                        <td>000.000.000-00</td>
+                        <td>00/00/0000</td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
+            <table border="1" cellpadding="4" style="border-collapse:collapse;" >
+                <tr>
+                    <td colspan="2">Celula 1-1</td>
+                    <td>Celula 1-3</td>
+                </tr>
+                <tr>
+                    <td>Celula 2-1</td>
+                    <td>Celula 2-2</td>
+                    <td>Celula 2-3</td>
+                </tr>
+
+            </table>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        &COPY;
+        <script>
+            document.write(new Date().getFullYear())
+        </script>
+        Soulcode Academy
+    </footer>
+</body>
+</html>
