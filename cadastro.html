@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <form>
+      <!--Container de inputs-->
+      <div>
+        <label for="campoNome">Nome completo</label><br />
+        <input
+          id="campoNome"
+          name="campoNome"
+          type="text"
+          placeholder="Seu nome"
+          required
+        />
+      </div>
+      <div>
+        <label for="campoEmail">E-mail</label><br />
+        <input
+          id="campoEmail"
+          name="campoEmail"
+          type="email"
+          placeholder="usuario@exemplo.com.br"
+          required
+        />
+      </div>
+      <div>
+        <label for="campoSenha">Senha</label><br />
+        <input
+          type="password"
+          id="campoSenha"
+          name="campoSenha"
+          placeholder="Senha"
+          required
+        />
+      </div>
+      <div>
+        <label for="campoProfissao">Profissão</label><br />
+        <select name="campoProfissao" id="campoPrifissao" required>
+          <option selected disabled value="">Selecione uma opção</option>
+          <option value="professor">Professor</option>
+          <option value="tecnico">Técnico</option>
+          <option value="programador">Programador</option>
+        </select>
+      </div>
+      <div>
+        <label>Idioma nativo</label><br />
+
+        <input type="radio" id="checkIngles" name="campoIdioma" checked />
+        <label for="checkIngles">Inglês</label>
+        <input type="radio" id="checkEspanhol" name="campoIdioma" />
+        <label for="checkEspanhol">Espanhol</label>
+        <input type="radio" id="checkPortugues" name="campoIdioma" />
+        <label for="checkPortugues">Português</label>
+      </div>
+      <div>
+        <label for="campoResumo">Fale sobre você</label><br />
+        <textarea
+          name="campoResumo"
+          id="campoResumo"
+          maxlength="128"
+          cols="30"
+          rows="10"
+          placeholder="Fale sobre sua vida profissional."
+        ></textarea>
+      </div>
+      <div>
+        <input
+          type="checkbox"
+          id="checkTermos"
+          name="concordaTermos"
+          required
+        />
+        <label for="checkTermos">Concordo com os termos do serviço</label>
+      </div>
+      <hr />
+      <button type="submit">Enviar</button>
+      <button type="reset">Limpar</button>
+      <button type="button" onclick="alert('VAI ESTUDAR!!!!')">Motivador</button>
+    </form>
+  </body>
+</html>
