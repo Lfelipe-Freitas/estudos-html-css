@@ -1,0 +1,28 @@
+p {
+    color: green;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+body {
+    background-color: rgb(194, 249, 231);
+    font-family: 'Montserrat', sans-serif;;
+}
+h1, h2, h3 {
+    color: white; /*Seletor por elemento*/
+}
+#meuH1 {
+    font-weight: 900; /*Seletor por id*/
+    color: black;
+}
+.meuH2 {
+    font-weight: 100;
+    color:brown;
+    text-decoration: underline; /*Seletor por classe*/
+}
+#principal {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(250, 247, 247);
+    border-radius: 8px;
+}
