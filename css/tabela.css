@@ -6,8 +6,7 @@ h1 {
 
 
 table {
-    border: 1px solid;
-    border-collapse: collapse;
+    border: 1px groove;
     border-color: darkgray;
     text-align: center;
     margin-left: auto;
@@ -16,7 +15,30 @@ table {
     border-radius: 5px;
 }
  tr, th, td {
-    border-top: 1px solid;
-    border-bottom: 1px solid;
+    border-bottom: 1px groove;
     border-color:darkgray
  }
+
+ td, th {
+    height: 30px;
+ }
+
+ .borda {
+    border-bottom: none;
+    color: red;
+    font-weight: bold;
+ }
+.verdes {
+    color: green;
+    font-weight: bold;
+}
+
+.amarelos {
+    color: orange;
+    font-weight: bold;
+}
+
+.vermelhos {
+    color: red;
+    font-weight: bold;
+}
