@@ -38,5 +38,6 @@ body {
     background-image: url("../img/Capa\ LinkedIn.png");
     background-size: contain;
     height: 100vh; /*aumenta o tamanho da box do body para 100% da página*/
-    background-attachment: fixed; /*para deixa a imagem estática no background/*
+    background-attachment: fixed;
+} /*para deixa a imagem estática no background/*
 }
