@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.styled-button {
+    background-color: rgb(107, 221, 107);
+    border: none;
+    color: white;
+    padding: 16px 25px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.styled-button:hover {
+    background-color: rgb(163, 89, 232);
+}
+
+.styled-button-black {
+    background-color: black;
+}
+
+.myTable {
+    width: 400px;
+    border: solid;
+    border-collapse: collapse;
+    margin: auto
+}
+
+.myTable th {
+    background-color: rgb(161, 161, 249);
+    color: white;
+    padding: 12px 0;
+}
+
+.myTable td {
+    border: solid;
+    padding: 8px;
+    text-align: center;
+    height: 50px;
+}
+
+.myTable tr:hover {
+    background-color: rgb(210, 198, 198);
+}
+
+.myForm {
+    margin: auto;
+    border-radius: 6px;
+    width: 400px;
+    background-color: rgb(152, 152, 147);
+}
+
+.myForm input {
+    width: 100%;
+    padding: 12px 8px;
+    border: solid
+}
+
+.myForm :hover {
+    background-color: rgb(255, 190, 190);
+}
+
+.myForm input {
+    height: 40px;
+
+}
+
+.my-button {
+    width: 100%;
+}
