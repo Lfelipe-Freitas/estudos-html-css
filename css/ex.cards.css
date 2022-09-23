@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(159, 159, 246);
+}
+
+img {
+    width: 300px;
+}
+
+#pc {
+    margin-left: 10%;
+}
+
+#console {
+    margin-left: 30%;
+}
+
+#portable {
+    margin-left: 50%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
