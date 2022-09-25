@@ -1,29 +1,102 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    text-decoration: underline;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-logo {
+    background: none;
+    width: 270px;
+    height: 400px;
+    border-radius: 15px;
+}
+
+.logo-img {
+    height: 170px;
+    background-size: contain;
+    background-repeat: no-repeat
+}
+
 
 body {
-    background-color: rgb(159, 159, 246);
+    background:linear-gradient(45deg, #1C3879, #607EAA, #EAE3D2, #F9F5EB);
+    background-size: 200% 200%;
+    animation: colors 10s ease infinite;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 
-img {
-    width: 300px;
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
-#pc {
-    margin-left: 10%;
-}
-
-#console {
-    margin-left: 30%;
-}
-
-#portable {
-    margin-left: 50%;
-}
-
-.flex-container {
+.container {
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.card {
+    background: none;
+    width: 270px;
+    height: 400px;
+    border-radius: 15px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
+    border: outset white;
+    text-overflow: ellipsis;
+}
+
+.card h2 {
+    margin: 10px
+}
+
+.card:hover {
+    background-color: rgb(113, 168, 224);
+    color: white;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.card-image {
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.imagem1 {
+    background-image: url("../img/dualsense.webp");
+}
+
+.imagem2 {
+    background-image: url("../img/ps5-horizontal.webp");
+}
+
+.imagem3 {
+    background-image: url("../img/pulse.webp");
+}
+
+.imagemLogo {
+    background-image: url("../img/ps5-logo.webp");
 }
