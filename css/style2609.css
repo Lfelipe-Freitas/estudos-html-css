@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: darkgray;
+    justify-content: space-evenly;
+    height: 400px;
+    align-items: center;
+    align-content: center;
+    gap: 8px;
+}
+
+.box1 {
+    background-color: aqua;
+}
+
+.box2 {
+    background-color: brown;
+}
+
+.box3 {
+    background-color: blueviolet;
+}
+
+.box4 {
+    background-color: crimson;
+}
+
+.box1, .box2, .box3, .box4 {
+    width: 400px;
+    padding: 8px;
+    border-radius: 8px;
+}
