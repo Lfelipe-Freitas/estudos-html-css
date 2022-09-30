@@ -42,3 +42,8 @@ table {
     color: red;
     font-weight: bold;
 }
+
+body {
+    background-repeat: no-repeat;
+    background-size: ;
+}
